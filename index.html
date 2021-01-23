@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Firefox vs Chrome Window object in web worker</title>
+</head>
+
+<body>
+    <h1>Firefox vs Chrome Window object in web worker</h1>
+    <script>
+        console.log("In window context: about to start worker");
+        new Worker("worker.js");
+    </script>
+</body>
+
+</html>
